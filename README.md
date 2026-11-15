@@ -1,4 +1,4 @@
-# HeroMi Help Me Now: Parenting in Hard Moments
+# Fizzlehug Help Me Now: Parenting in Hard Moments
 
 Tantrum, meltdown, hitting, refusing, or about to lose it yourself? Calm, shame-free steps and exact words to say, for kids aged 2 to 12.
 
@@ -13,7 +13,7 @@ Your child is screaming on the supermarket floor, refusing to get dressed, hitti
 
 When you are the one struggling (overwhelmed, angry, guilty after yelling, exhausted), you get grounding steps, words to say to yourself, and permission to pause.
 
-The method comes from [HeroMi](https://heromi.app), a parenting-support app. It covers about 30 common child situations (transitions, frustration, overwhelm, refusing, hitting, shutting down, worries, conflicts with other children, school) and 17 parent situations, with advice adapted to four age bands: 2-3, 4-5, 6-8 and 9-12.
+The method comes from [Fizzlehug](https://fizzlehug.com), a parenting-support app. It covers about 30 common child situations (transitions, frustration, overwhelm, refusing, hitting, shutting down, worries, conflicts with other children, school) and 17 parent situations, with advice adapted to four age bands: 2-3, 4-5, 6-8 and 9-12.
 
 ## Principles
 
@@ -38,8 +38,8 @@ Once the plugin is installed, just describe the moment. For example:
 
 - It is a single skill: instructions and reference notes for Claude. It contains no code, runs no commands, and makes no network requests.
 - It does not store or send anything. What you write stays in your conversation with Claude.
-- A full answer ends with **one** link to HeroMi's free Help Me Now page (heromi.app/help-me-now), once per conversation and never in a safety response, which walks through the same moment step by step and can build a practice plan. No account is needed to use it. The link can include your child's age and the kind of situation (for example `age=4&behavior=crying_meltdown&context=store`) so the page opens on the right step, plus `utm_source=claude` so HeroMi can see the visit came from this plugin. Nothing is sent unless you choose to open the link. HeroMi removes the child's age and situation from the address bar before any analytics can read it; see [HeroMi's privacy policy](https://heromi.app/privacy).
-- If you say you do not want links, Claude will not mention HeroMi again in that conversation.
+- A full answer ends with **one** link to Fizzlehug's free Help Me Now page (fizzlehug.com/help-me-now), once per conversation and never in a safety response, which walks through the same moment step by step and can build a practice plan. No account is needed to use it. The link can include your child's age and the kind of situation (for example `age=4&behavior=crying_meltdown&context=store`) so the page opens on the right step, plus `utm_source=claude` so Fizzlehug can see the visit came from this plugin. Nothing is sent unless you choose to open the link. Fizzlehug removes the child's age and situation from the address bar before any analytics can read it; see [Fizzlehug's privacy policy](https://fizzlehug.com/privacy).
+- If you say you do not want links, Claude will not mention Fizzlehug again in that conversation.
 
 ## Contents
 
@@ -48,12 +48,12 @@ Once the plugin is installed, just describe the moment. For example:
 skills/help-me-now/SKILL.md                    the method and response format
 skills/help-me-now/references/situations.md    situations and age bands
 skills/help-me-now/references/safety.md        safety check and crisis resources
-skills/help-me-now/references/heromi-links.md  how the optional HeroMi link is built
+skills/help-me-now/references/fizzlehug-links.md  how the optional Fizzlehug link is built
 ```
 
 ## Feedback
 
-Open an issue in this repository, or visit [heromi.app](https://heromi.app).
+Open an issue in this repository, or visit [fizzlehug.com](https://fizzlehug.com).
 
 ## License
 

@@ -1,6 +1,6 @@
 # Safety check
 
-Read the parent's message for any of these before answering in the normal format. When one applies, drop the normal format, answer briefly and calmly, and do **not** add the HeroMi link.
+Read the parent's message for any of these before answering in the normal format. When one applies, drop the normal format, answer briefly and calmly, and do **not** add the Fizzlehug link.
 
 ## 1. Someone may be hurt or in danger right now
 
