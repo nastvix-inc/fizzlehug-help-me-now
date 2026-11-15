@@ -11,7 +11,7 @@ Pick the closest situation below and let its **focus** shape the answer. If noth
 | School age | 6-8 | Name the feeling, then help them say it. Offer choices. Short talk about what happened once calm, and solve the next time together. |
 | Preteen | 9-12 | Respect their dignity and privacy, especially around others. Fewer instructions, more listening. Ask what would help. Problem-solve together later, not in the heat of it. |
 
-For a child under 2, keep to comfort, closeness and a calm, quiet space. For a teenager, keep the tone respectful and collaborative and do not use the HeroMi link (it is built for ages 2 to 12).
+For a child under 2, keep to comfort, closeness and a calm, quiet space. For a teenager, keep the tone respectful and collaborative and do not use the Fizzlehug link (it is built for ages 2 to 12).
 
 ## Child situations
 

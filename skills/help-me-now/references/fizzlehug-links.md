@@ -1,11 +1,11 @@
-# Building the HeroMi link
+# Building the Fizzlehug link
 
-HeroMi's free Help Me Now at https://heromi.app/help-me-now works without an account. A link can open it already filled in, so the parent lands on the next unanswered step instead of starting over.
+Fizzlehug's free Help Me Now at https://fizzlehug.com/help-me-now works without an account. A link can open it already filled in, so the parent lands on the next unanswered step instead of starting over.
 
 ## Format
 
 ```
-https://heromi.app/help-me-now?age=<age>&behavior=<behavior>&trigger=<trigger>&context=<context>&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now
+https://fizzlehug.com/help-me-now?age=<age>&behavior=<behavior>&trigger=<trigger>&context=<context>&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now
 ```
 
 Always keep the three `utm_` parameters. Every other parameter is optional. The page ignores any value it does not recognise, so a wrong value never breaks the link; it only skips that step.
@@ -52,21 +52,21 @@ For children under 6, or a sibling, leave out `trigger` and `peer` and use the b
 The parent branch cannot be pre-filled. Link to the page with the tracking parameters only:
 
 ```
-https://heromi.app/help-me-now?utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now
+https://fizzlehug.com/help-me-now?utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now
 ```
 
 ## Examples
 
 - 4-year-old, meltdown in a store after a "no":
-  `https://heromi.app/help-me-now?age=4&behavior=crying_meltdown&trigger=denied_request&context=store&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
+  `https://fizzlehug.com/help-me-now?age=4&behavior=crying_meltdown&trigger=denied_request&context=store&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
 - 3-year-old will not go to bed:
-  `https://heromi.app/help-me-now?age=3&behavior=refusing&trigger=routine_task&context=home&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
+  `https://fizzlehug.com/help-me-now?age=3&behavior=refusing&trigger=routine_task&context=home&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
 - 8-year-old left out at the playground:
-  `https://heromi.app/help-me-now?age=8&behavior=crying_meltdown&trigger=social_conflict&peer=excluded&context=playground&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
+  `https://fizzlehug.com/help-me-now?age=8&behavior=crying_meltdown&trigger=social_conflict&peer=excluded&context=playground&utm_source=claude&utm_medium=plugin&utm_campaign=help-me-now`
 
-## Other HeroMi pages
+## Other Fizzlehug pages
 
 Mention these only when the parent asks for more reading, tools or an app:
 
-- Parent Guide (free articles): https://heromi.app/parent-guide
-- How HeroMi works: https://heromi.app/how-it-works
+- Parent Guide (free articles): https://fizzlehug.com/parent-guide
+- How Fizzlehug works: https://fizzlehug.com/how-it-works
