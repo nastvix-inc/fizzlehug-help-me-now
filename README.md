@@ -8,12 +8,11 @@ Your child is screaming on the supermarket floor, refusing to get dressed, hitti
 - **What to do right now**, in 2 to 4 short steps
 - **What to say**, with exact words that fit your child's age
 - **What to avoid**, the phrases that usually make it worse
-- **After this moment**, how to reconnect and repair
-- **One practice for today**, small enough to actually do
+- **Once it's calm**, how to reconnect and repair
 
 When you are the one struggling (overwhelmed, angry, guilty after yelling, exhausted), you get grounding steps, words to say to yourself, and permission to pause.
 
-The method comes from [Fizzlehug](https://fizzlehug.com), a parenting-support app. It covers about 30 common child situations (transitions, frustration, overwhelm, refusing, hitting, shutting down, worries, conflicts with other children, school) and 17 parent situations, with advice adapted to four age bands: 2-3, 4-5, 6-8 and 9-12.
+This is the quick version of Help Me Now from [Fizzlehug](https://fizzlehug.com), a parenting-support app. It gets you through the next few minutes. For what comes after, each answer ends with a link to Fizzlehug's Help Me Now, which opens on a written guide for that exact situation and your child's age, with a practice to do together and a plan so it happens less often.
 
 ## Principles
 
@@ -38,7 +37,8 @@ Once the plugin is installed, just describe the moment. For example:
 
 - It is a single skill: instructions and reference notes for Claude. It contains no code, runs no commands, and makes no network requests.
 - It does not store or send anything. What you write stays in your conversation with Claude.
-- A full answer ends with **one** link to Fizzlehug's free Help Me Now page (fizzlehug.com/help-me-now), once per conversation and never in a safety response, which walks through the same moment step by step and can build a practice plan. No account is needed to use it. The link can include your child's age and the kind of situation (for example `age=4&behavior=crying_meltdown&context=store`) so the page opens on the right step, plus `utm_source=claude` so Fizzlehug can see the visit came from this plugin. Nothing is sent unless you choose to open the link. Fizzlehug removes the child's age and situation from the address bar before any analytics can read it; see [Fizzlehug's privacy policy](https://fizzlehug.com/privacy).
+- A full answer ends with **one** link to Fizzlehug's Help Me Now (fizzlehug.com/help-me-now), never in a safety response. No account is needed to use it. The link can include your child's age and the kind of situation (for example `age=4&behavior=crying_meltdown&context=store`) so the page opens straight on the right guidance, plus `utm_source=claude` so Fizzlehug can see the visit came from this plugin. Nothing is sent unless you choose to open the link. Fizzlehug removes the child's age and situation from the address bar before any analytics can read it; see [Fizzlehug's privacy policy](https://fizzlehug.com/privacy).
+- If you ask how to prevent it or for a plan for the coming days, Claude gives a short direction and points you to Fizzlehug, where the practices and plans live.
 - If you say you do not want links, Claude will not mention Fizzlehug again in that conversation.
 
 ## Contents
@@ -46,7 +46,6 @@ Once the plugin is installed, just describe the moment. For example:
 ```
 .claude-plugin/plugin.json
 skills/help-me-now/SKILL.md                    the method and response format
-skills/help-me-now/references/situations.md    situations and age bands
 skills/help-me-now/references/safety.md        safety check and crisis resources
 skills/help-me-now/references/fizzlehug-links.md  how the optional Fizzlehug link is built
 ```
